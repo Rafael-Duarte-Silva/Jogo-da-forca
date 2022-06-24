@@ -218,7 +218,7 @@ int forca(int erro)
 			printf(" |       O      \n");
 			printf(" |       |      \n"); 
 			printf(" |       |      \n");
-			printf(" |      / \     \n");
+			printf(" |      //      \n");
 			printf(" |              \n");
 			printf("\n\n");
 		}
@@ -230,7 +230,7 @@ int forca(int erro)
 			printf(" |       O      \n");
 			printf(" |     --|      \n"); 
 			printf(" |       |      \n");
-			printf(" |      / \     \n");
+			printf(" |      //      \n");
 			printf(" |              \n");
 			printf("\n\n");
 		}
