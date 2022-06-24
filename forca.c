@@ -208,7 +208,7 @@ int forca(int erro)
 			printf(" |              \n");
 			printf("\n\n");
 			
-			printf("A palavra tem haver com programção\n\n");
+			printf("DICA: A palavra tem haver com programacao\n\n");
 		}
 		
 		if(erro == 4)
