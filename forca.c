@@ -49,7 +49,7 @@ int main()
 		}
 		
 		
-		//A variável letra2 recebe a variável letra assim sendo um historico dela
+		//A variável (letra2) recebe a variável (letra) assim sendo um historico dela
 		letra2 = letra;
 		
 		
@@ -57,7 +57,7 @@ int main()
 		for(i = 0; i < 10; i++)
 		{
 			
-			//Verifica aonde está a posição da letra e sobrescreve a letra na veriável p;
+			//Verifica aonde está a posição da letra e sobrescreve a letra na veriável (p);
 			if(palavra[i] == letra)
 			{
 				p[i] = letra;			
@@ -87,7 +87,7 @@ int main()
 				//Se esse contador (erro) for igual a 10, que é o numero de letras da palavra ou seja não há está letra na palavra
 				if(erro2 == 10)
 				{
-					//Assim uma outra variável quanatas vezes o usuario erro a letra
+					//Assim uma outra variável quantas vezes o usuario erro a letra
 					erro = erro + 1;
 					
 					//Armazena as letra erradas para mostrar na proxima repetição, qual foi a letras erradas já digitadas
@@ -114,7 +114,7 @@ int main()
 			break;
 		}
 		
-		//Quando a variável de erros chega a 6 (quantidades de erros para perde baseada no google) ela encerra o loop
+		//Quando a variável de erros chega a 6 (quantidades de erros baseada no google) ela encerra o loop
 		if(erro == 6)
 		{
 			break;
@@ -145,7 +145,7 @@ int main()
 		
 		printf("Voce deseja ver qual era a palavra? Sim(aperte s) Nao (Aperte qualquer tecla)\n");
 		
-		//É usada a mesma variável pois essa variável não está mais em uso após o fim do loop (isso economiza variáveis)
+		//É usada a mesma variável, pois, essa variável não está mais em uso após o fim do loop (isso economiza variáveis)
 		letra = getch();
 		
 		//Caso aperte (s) entrará nessas condições ou caso aperte qualquer outra tecla o programa será encerrado
